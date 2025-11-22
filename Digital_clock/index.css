@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 2rem;
+    color: white;
+    font-family: digit, sans-serif;
+}
+body{
+    background-image: url(bg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    backdrop-filter: blur(4px);
+}
+h1{
+    display:inline-block;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20vh;
+}
+.clock{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-shadow: 2px  2px 4px #000000;
+    background-color: rgba(170, 168, 168, 0.333);
+    backdrop-filter: blur(10px) ;
+    border-radius: 30px;
+    padding: 30px 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
